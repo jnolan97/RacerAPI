@@ -8,6 +8,84 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="nav">
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+    </div>
+    <div class="banner">
+        <h2 id="form-title">Racer Data Form</h2>
+        <div class="container">
+        <form action="" name="racerData" id="racerData">
+            <label for="lap"></label>
+            <input type="text" name="year" placeholder="Year">
+            <input type="text" name="lap" placeholder="Racer Data Lap">
+            <button id="submitButton" onClick="event.preventDefault(); getJSON()">Submit</button>
+        </form>
+
+    </div>
+    <table class="table">
+        <tr>
+          <th>Position</th>
+          <th>Name</th> 
+          <th>Nationality</th>
+          <th>Sponsor</th>
+          <th>Points</th>
+        </tr>
+        <tr>
+          <td id="position0"></td>
+          <td id="name0"></td>
+          <td id="nationality0"></td>
+          <td id="sponsor0"></td>
+          <td id="points0"></td>
+        </tr>
+        <tr>
+          <td id="position1"></td>
+          <td id="name1"></td>
+          <td id="nationality1"></td>
+          <td id="sponsor1"></td>
+          <td id="points1"></td>
+        </tr>
+        <tr>
+          <td id="position2"></td>
+          <td id="name2"></td>
+          <td id="nationality2"></td>
+          <td id="sponsor2"></td>
+          <td id="points2"></td>
+        </tr>
+        <tr>
+          <td id="position3"></td>
+          <td id="name3"></td>
+          <td id="nationality3"></td>
+          <td id="sponsor3"></td>
+          <td id="points3"></td>
+        </tr>
+        <tr>
+          <td id="position4"></td>
+          <td id="name4"></td>
+          <td id="nationality4"></td>
+          <td id="sponsor4"></td>
+          <td id="points4"></td>
+        </tr>
+        <tr>
+          <td id="position5"></td>
+          <td id="name5"></td>
+          <td id="nationality5"></td>
+          <td id="sponsor5"></td>
+          <td id="points5"></td>
+        </tr>
+        <tr>
+          <td id="position6"></td>
+          <td id="name6"></td>
+          <td id="nationality6"></td>
+          <td id="sponsor6"></td>
+          <td id="points6"></td>
+        </tr>
+      </table>
+</div>
+
 </body>
 </html>
