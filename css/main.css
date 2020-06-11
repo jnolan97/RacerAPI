@@ -1,0 +1,51 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    margin-left: 100px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: green;
+  }
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#form-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+#racerData{
+    margin-top: 20px;
+}
+.banner{
+    height: 100vh;
+    background-image: linear-gradient(to left top,rgba(30,115,172,0.7),rgba(142,57,153,0.6));
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}

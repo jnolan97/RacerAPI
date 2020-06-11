@@ -8,6 +8,50 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="nav">
+        <ul>
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+    </div>
+    <div class="banner">
+        <h2 id="form-title">Racer Data Form</h2>
+        <div class="container">
+        <form action="" name="racerData" id="racerData">
+            <label for="lap"></label>
+            <input type="text" name="year" placeholder="Year">
+            <input type="text" name="lap" placeholder="Racer Data Lap">
+            <button id="submitButton" onClick="event.preventDefault(); getJSON()">Submit</button>
+        </form>
+
+    </div>
+    <table class="table">
+        <tr>
+          <th>Position</th>
+          <th>Name</th> 
+          <th>Nationality</th>
+          <th>Sponsor</th>
+          <th>Points</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table>
+</div>
+
 </body>
 </html>
